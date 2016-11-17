@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# CI Environment variables documentation at http://documentation.codeship.com/docker/getting-started/steps/#push-steps
+echo "-CI_COMMIT_DESCRIPTION-=-${CI_COMMIT_DESCRIPTION}-"
+
+# Was the above output ^^ containing a newline? That's my point :)

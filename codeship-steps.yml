@@ -1,0 +1,4 @@
+# codeship-steps.yml
+- name: Show broken variable CI_COMMIT_DESCRIPTION
+  service: showcase
+  command: /script/show_vars

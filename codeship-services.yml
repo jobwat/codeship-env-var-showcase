@@ -1,0 +1,5 @@
+# codeship-services.yml
+showcase:
+  image: busybox
+  volumes:
+    - ./:/script
